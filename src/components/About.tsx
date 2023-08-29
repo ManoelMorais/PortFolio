@@ -10,7 +10,7 @@ export default function About() {
             <h2 className="text-xl text-headingcolor font-semibold mb-5">
               My studies
             </h2>
-            <h5>Scool</h5>
+            <h5>School</h5>
             <p>Complete at 17 december 2022</p>
             <br />
             <h5>University</h5>

@@ -4,7 +4,7 @@ const project = [
       name: "Game",
       description:
         "made in pure js to learn",
-      image: "src/assets/ping_pong.png",
+      image: "/ping_pong.png",
       link:"https://manoelmorais.github.io/Ping-Pong/",
     },
     {
@@ -12,7 +12,7 @@ const project = [
       name: "Login",
       description:
         "Practice",
-      image: "src/assets/login.png",
+      image: "/login.png",
       link:"https://manoelmorais.github.io/Login/",
     },
     {
@@ -20,7 +20,7 @@ const project = [
       name: "Clock",
       description:
         "using js to practice dates",
-      image: "src/assets/relogio.png",
+      image: "/relogio.png",
       link:"https://manoelmorais.github.io/Relogio/",
     },
   ];

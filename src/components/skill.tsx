@@ -1,53 +1,53 @@
 const skills = [
   {
     id: 1,
-    image: "src/assets/html_icon.png",
+    image: "/html_icon.png",
   },
   {
     id: 2,
-    image: "src/assets/css-icon.png",
+    image: "/css-icon.png",
   },
   {
     id: 3,
-    image: "src/assets/javascript_icon.png",
+    image: "/javascript_icon.png",
   },
   {
     id: 4,
-    image: "src/assets/typescriptl_icon.png",
+    image: "/typescriptl_icon.png",
   },
   {
     id: 5,
-    image: "src/assets/tailwind_icon.png",
+    image: "/reactjs_icon.png",
   },
   {
     id: 6,
-    image: "/src/assets/reactjs_icon.png",
+    image: "/tailwind_icon.png",
   },
 ];
 const studying = [
     {
       id: 7,
-      image: "src/assets/python_icon.png",
+      image: "/python_icon.png",
     },
     {
       id: 8,
-      image: "src/assets/nextjs_icon.png",
+      image: "/sql_icon.png",
     },
     {
       id: 9,
-      image: "src/assets/sql_icon.png",
+      image: "/nextjs_icon.png",
     },
     {
       id: 10,
-      image: "src/assets/java_icon.png",
+      image: "/node_icon.png",
     },
     {
       id: 11,
-      image: "src/assets/node_icon.png",
+      image: "/java_icon.png",
     },
     {
       id: 12,
-      image: "/src/assets/mongo_icon.png",
+      image: "/mongo_icon.png",
     },
   ];
 

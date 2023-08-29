@@ -49,7 +49,7 @@ export default function Contact() {
                 Phone number
               </label>
               <input
-                type="number"
+                type="tel"
                 id="phone"
                 name="phone"
                 className="block border border-primary rounded-lg py-2 mt-2 w-full"
@@ -91,12 +91,12 @@ export default function Contact() {
               Type your message...
             </textarea>
           </div>
-          <div className="w-36 mx-auto border rounded-lg">
+          <div className="w-36 mx-auto border rounded-lg bg-sky-950  hover:bg-sky-400">
             <a href="mailto"></a>
             <input 
               type="submit"
               value="Submit"
-              className="btn-primary py-3 bg-primary px-8 text-black font-medium rounded-b-md cursor-pointer inline-block w-full "
+              className="btn-primary py-3 bg-primary px-8 text-white font-medium rounded-b-md cursor-pointer inline-block w-full "
               required
             />
           </div>
