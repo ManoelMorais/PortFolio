@@ -9,13 +9,13 @@ export default function Footer() {
           <a href="#home" className="block text-primary hover:text-cyan-400 py-2 px-4">
             Home
           </a>
-          <a href="#perfil" className="block hover:text-cyan-400 py-2 px-4">
+          <a href="#perfil" className="block hover:text-teal-300 py-2 px-4">
             Perfil
           </a>
-          <a href="#projetos" className="block  hover:text-cyan-400 py-2 px-4">
+          <a href="#projetos" className="block  hover:text-teal-300 py-2 px-4">
             Projetos
           </a>
-          <a href="#estudos" className="block  hover:text-cyan-400 py-2 px-4">
+          <a href="#estudos" className="block  hover:text-teal-300 py-2 px-4">
             Estudos
           </a>
         </div>

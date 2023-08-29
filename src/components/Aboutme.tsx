@@ -8,7 +8,7 @@ export default function AboutMe() {
           </h3>
           <ul>
             <li>English</li>
-            <li>Portuguese</li>
+            <li>Spanish</li>
             <li>Italian</li>
           </ul>
         </div>

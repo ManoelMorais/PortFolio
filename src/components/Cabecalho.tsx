@@ -34,7 +34,7 @@ export default function Cabecalho() {
             <li className="md:ml-8 md:my-0 my-7 font-semibold">
               <a
                 href={link.link}
-                className="text-white hover:text-cyan-400 duration-500"
+                className="text-white hover:text-teal-300 duration-500"
               >
                 {link.name}
               </a>

@@ -18,17 +18,15 @@ export default function About() {
           </div>
           <div className="flex flex-col m-10 ">
             <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">
-              My Expertise
+              My profile
             </h2>
             <p className="mt-8 md:pr-8 mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              varius faucibus massa sollicitudin amet augue. Nibh metus a semper
-              purus mauris duis. Lorem eu neque, tristique quis duis. Nibh
-              scelerisque ac adipiscing velit non nulla in amet pellentesque.
+              Olá, meu nome e Manoel Almeida de Morais, tenho 18 anos, apaixonado por jogos, gatos e tecnologia, 
+              desde pequeno sempre gostei dessas coisas, e no ultimo ano resolvir entrar nesse mundo da programção
+              e nesse tempo aprendi muitas coisas que já mais pensei em como funcionava.
               <br /> <br />
-              Sit turpis pretium eget maecenas. Vestibulum dolor mattis
-              consectetur eget commodo vitae. Amet pellentesque sit pulvinar
-              lorem mi a, euismod risus r.
+              Eu também invisto meu dinheiro, sempre pensando no meu futuro e não no final de semana, gosto muito de formula 1, 
+              mas do que futbol kkkk, gosto de sair, experimentar várias aventuras, diversas histórias para conta inclusive
             </p>
           </div>
         </div>
