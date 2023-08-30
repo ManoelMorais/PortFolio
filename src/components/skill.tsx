@@ -54,7 +54,7 @@ const studying = [
 export default function Skills() {
   return (
     <div className="lg:mx-14 py-32" id="estudos">
-      <div className="mb-20">
+      <div className="px-10">
         <p className="text-xl text-headingcolor font-semibold mb-5">
           My Skills
         </p>
@@ -69,12 +69,12 @@ export default function Skills() {
             <img
               src={skill.image}
               alt=""
-              className="w-14 h-14 p-3 bg-white rounded-lg shadow-md mb-7 border-solid border-2 border-black"
+              className="w-20 h-20 p-3 bg-white rounded-lg shadow-md mb-7 border-solid border-2 border-black"
             />
           </div>
         ))}
       </div>
-      <div className="mb-20 pt-8">
+      <div className="px-10">
         <h2><i>Studying:</i></h2>
       </div>
       <div className="flex justify-between m-10 gap-5 flex-wrap">
@@ -86,7 +86,7 @@ export default function Skills() {
             <img
               src={studying.image}
               alt=""
-              className="w-14 h-14 p-3 bg-white rounded-lg shadow-md mb-7 border-solid border-2 border-black"
+              className="w-20 h-20 p-3 bg-white rounded-lg shadow-md mb-7 border-solid border-2 border-black"
             />
           </div>
         ))}

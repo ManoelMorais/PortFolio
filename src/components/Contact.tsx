@@ -88,7 +88,6 @@ export default function Contact() {
               id="message"
               className="block border border-primary rounded-lg py-2 px-2 mt-2 w-full"
             >
-              Type your message...
             </textarea>
           </div>
           <div className="w-36 mx-auto border rounded-lg bg-sky-950  hover:bg-sky-400">

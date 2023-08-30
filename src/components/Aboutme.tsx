@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
-    <div className="lg:mx-12 mx-4 p-10 flex items-center justify-center content-center bg-bgShade bg-slate-900 text-white shadow-md rounded-lg">
-      <div className="flex sm:flex-row md:gap-24 flex-wrap">
+    <div className="mx-4  flex  justify-center bg-slate-900 text-white  rounded-lg">
+      <div className="flex flex-wrap">
         <div className="pt-7 m-10 gap-5">
           <h3 className="text-xl text-headingcolor font-semibold mb-5 flex justify-center">
             Idioma
@@ -12,7 +12,7 @@ export default function AboutMe() {
             <li>Italian</li>
           </ul>
         </div>
-        <div className="pt-7  m-10 gap-5">
+        <div className="pt-7 m-10 gap-5">
           <h3 className="text-xl text-headingcolor font-semibold mb-5 flex justify-center">
             Skills
           </h3>
