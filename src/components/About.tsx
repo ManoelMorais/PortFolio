@@ -27,6 +27,8 @@ export default function About() {
               <br /> <br />
               Eu também invisto meu dinheiro, sempre pensando no meu futuro e não no final de semana, gosto muito de formula 1, 
               mas do que futbol kkkk, gosto de sair, experimentar várias aventuras, diversas histórias para conta inclusive
+              <br /><br />
+              Só mais uma pessoa tentando se torna um full stack nesse mundo louco
             </p>
           </div>
         </div>

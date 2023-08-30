@@ -5,8 +5,8 @@ import logo from "../assets/abertura.webp"
 export default function Cabecalho() {
   const Links = [
     { name: "Home", link: "#home" },
-    { name: "Perfil", link: "#perfil" },
-    { name: "Projetos", link: "#projetos" },
+    { name: "Profile", link: "#perfil" },
+    { name: "Projects", link: "#projetos" },
     { name: "Skill", link: "#estudos" },
   ];
   const [open, setOpen] = useState(false);
@@ -17,7 +17,7 @@ export default function Cabecalho() {
         {/* logo section */}
         <div className="font-bold text-2xl flex items-center gap-1">
           <img className="w-14" src={logo} alt="" />
-          <span>PortFólio</span>
+          <span>Welcome ✨</span>
         </div>
         <div
           onClick={() => setOpen(!open)}
