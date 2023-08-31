@@ -10,9 +10,6 @@ export default function About() {
             <h2 className="text-xl text-headingcolor font-semibold mb-5">
               My studies
             </h2>
-            <h5>School</h5>
-            <p>Complete at 17 december 2022</p>
-            <br />
             <h5>University</h5>
             <p>system analysis and development</p>
           </div>
@@ -21,14 +18,20 @@ export default function About() {
               My profile
             </h2>
             <p className="mt-8 md:pr-8 mb-8">
-              Olá, meu nome e Manoel Almeida de Morais, tenho 18 anos, apaixonado por jogos, gatos e tecnologia, 
-              desde pequeno sempre gostei dessas coisas, e no ultimo ano resolvir entrar nesse mundo da programção
-              e nesse tempo aprendi muitas coisas que já mais pensei em como funcionava.
+              Hello, my name is Manoel Almeida de Morais, I'm 18 years old,
+              passionate about games, cats, and technology. Since I was young,
+              I've always enjoyed these things, and in the last year, I decided
+              to dive into the world of programming. During this time, I've
+              learned many things that I never thought I would understand.
               <br /> <br />
-              Eu também invisto meu dinheiro, sempre pensando no meu futuro e não no final de semana, gosto muito de formula 1, 
-              mas do que futbol kkkk, gosto de sair, experimentar várias aventuras, diversas histórias para conta inclusive
-              <br /><br />
-              Só mais uma pessoa tentando se torna um full stack nesse mundo louco
+              I also invest my money, always thinking about my future rather
+              than just the weekend. I really like Formula 1 more than soccer,
+              haha. I enjoy going out and experiencing various adventures, with
+              many stories to tell.
+              <br />
+              <br />
+              Just one more person trying to become a full stack in this crazy
+              world.
             </p>
           </div>
         </div>

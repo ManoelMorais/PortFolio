@@ -7,9 +7,9 @@ export default function AboutMe() {
             Idioma
           </h3>
           <ul>
-            <li>English</li>
-            <li>Spanish</li>
-            <li>Italian</li>
+            <li>English: Beginner to Intermediate</li>
+            <li>Spanish: Intermediate</li>
+            <li>Italian: Beginner</li>
           </ul>
         </div>
         <div className="pt-7 m-10 gap-5">

@@ -9,17 +9,18 @@ export default function Welcome() {
         </div>
         <div className="md:w-1/2 w-full mt-5 max-lg:p-10">
           <p className="text-xl text-headingcolor font-semibold mb-5">
-            Olá, Holla, Hi, <span className="text-teal-300">I am Morais Manoel</span> 
+            Olá, Holla, Hi, Ciao,{" "}
+            <span className="text-teal-300">I am Morais Manoel</span>
           </p>
           <h1 className="font-bold text-headingcolor leading-snug md:leading-[76px]  mb-5 text-teal-300">
-            Developer passionate about technology 
+            Developer passionate about technology
           </h1>
           <p className="text-xl mb-8 text-justify">
-            Bem-vindo ao meu portfólio! Sou um programador apaixonado por
-            transformar linhas de código em soluções funcionais e inovadoras.
-            Com uma mente orientada para a resolução de problemas.tenho 
-            trabalhado em uma variedade de projetos, desde aplicativos 
-            intuitivos até sistemas robustos. Seja bem-vindo ao meu mundo!
+            Welcome to my portfolio! I'm a passionate programmer dedicated to
+            turning lines of code into functional and innovative solutions. With
+            a problem-solving mindset, I've been working on a variety of
+            projects, from intuitive applications to robust systems. Feel at
+            home in my world!
           </p>
         </div>
       </div>
