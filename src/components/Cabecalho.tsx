@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { useState } from "react";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import logo from "../assets/abertura.webp"
@@ -42,7 +41,7 @@ export default function Cabecalho() {
             </li>
           ))}
         </ul>
-        <Link className='font-bold' to="/blog">Blog</Link>
+        <a className="font-bold" href="https://blog-mu-one.vercel.app/">Blog</a>
       </div>
     </div>
   );
