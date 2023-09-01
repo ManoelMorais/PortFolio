@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useState } from "react";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import logo from "../assets/abertura.webp"
@@ -12,7 +13,7 @@ export default function Cabecalho() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="shadow-md w-full fixed top-0 left-0">
+    <div className="shadow-md w-full fixed top-0 left-0 ">
       <div className="md:flex items-center justify-between bg-slate-900 text-white py-4 md:px-10 px-7">
         {/* logo section */}
         <div className="font-bold text-2xl flex items-center gap-1">
@@ -41,6 +42,7 @@ export default function Cabecalho() {
             </li>
           ))}
         </ul>
+        <Link className='font-bold' to="/blog">Blog</Link>
       </div>
     </div>
   );
