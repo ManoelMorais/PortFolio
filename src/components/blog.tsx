@@ -17,16 +17,21 @@ export default function Blog() {
         </div>
       </section>
       <section className="flex flex-col p-5">
-        <h2 className="font-bold">Dia 01/09/2023</h2>
-        <h2>Quando tudo começou</h2>
-        <p className="my-5">
-          Hoje a minha manhã foi um dia produtivo. Fiz uma meta de fazer um mês perfeito, Logo acordei às 5:30, tomei
-          café e fui fazer exercícios e tomar banho. A aula de inglês foi feita
-          com sucesso. Depois, comecei um curso da Udemy muito bom. Ele é de JS,
-          TS e Node. Gostei mesmo, ajudou a abrir minha mente para umas coisas e
-          me motivou a criar esse blog, terminei um projeto do cruso Dev Samurai. Criei esse blog e pronto. Minha manhã foi essa. Agora vou almoçar
-          e jogar CS até às 13:30 e depois voltar a estudar. E essa e minha manhã para um mês perfeito.
-        </p>
+        <div>
+          <h2 className="font-bold">Dia 01/09/2023</h2>
+          <h2>Quando tudo começou</h2>
+          <p className="my-5">
+            Hoje a minha manhã foi um dia produtivo. Fiz uma meta de fazer um
+            mês perfeito, Logo acordei às 5:30, tomei café e fui fazer
+            exercícios e tomar banho. A aula de inglês foi feita com sucesso.
+            Depois, comecei um curso da Udemy muito bom. Ele é de JS, TS e Node.
+            Gostei mesmo, ajudou a abrir minha mente para umas coisas e me
+            motivou a criar esse blog, terminei um projeto do cruso Dev Samurai.
+            Criei esse blog e pronto. Minha manhã foi essa. Agora vou almoçar e
+            jogar CS até às 13:30 e depois voltar a estudar. E essa e minha
+            manhã para um mês perfeito.
+          </p>
+        </div>
       </section>
     </>
   );
