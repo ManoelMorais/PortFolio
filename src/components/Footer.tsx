@@ -18,10 +18,13 @@ export default function Footer() {
           <a href="#estudos" className="block  hover:text-teal-300 py-2 px-4">
             Estudos
           </a>
+          <a href="https://blog-mu-one.vercel.app/" className="block  hover:text-teal-300 py-2 px-4">
+            Blog
+          </a>
         </div>
         <div>
           <h1 className="px-4">Manoel Almeida de Morais</h1>
-          <h3 className="px-4">Aracaju/SE</h3>
+          <h3 className="px-4">Aracaju/SE +79🌎</h3>
           <div className="flex items-center  gap-4 m-4">
             <a href="https://www.linkedin.com/in/manoel-almeida-a90054267/" target="_blank">
               <FaLinkedin className="cursor-pointer hover:-translate-y-3 transition-all duration-300 text-xl hover:text-primary" />

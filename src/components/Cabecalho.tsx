@@ -8,6 +8,7 @@ export default function Cabecalho() {
     { name: "Profile", link: "#perfil" },
     { name: "Projects", link: "#projetos" },
     { name: "Skill", link: "#estudos" },
+    { name: "Blog", link: "https://blog-mu-one.vercel.app/"},
   ];
   const [open, setOpen] = useState(false);
 
@@ -27,7 +28,7 @@ export default function Cabecalho() {
         </div>
         <ul
           className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
-            open ? "top-15" : "top-[-490px]"
+            open ? "top-15" : "top-[-490px] "
           }`}
         >
           {Links.map((link) => (
@@ -41,7 +42,6 @@ export default function Cabecalho() {
             </li>
           ))}
         </ul>
-        <a className="font-bold" href="https://blog-mu-one.vercel.app/">Blog</a>
       </div>
     </div>
   );
