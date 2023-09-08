@@ -3,7 +3,7 @@ const project = [
       id: 1,
       name: "Game",
       description:
-        "made in pure js to learn",
+        "made in pure js to learn, linguages using HTML, CSS and JavaScitp",
       image: "/ping_pong.png",
       link:"https://manoelmorais.github.io/Ping-Pong/",
     },
@@ -11,7 +11,7 @@ const project = [
       id: 2,
       name: "Login",
       description:
-        "Practice",
+        "Practice, linguages using HTML, CSS and JavaScitp",
       image: "/login.png",
       link:"https://manoelmorais.github.io/Login/",
     },
@@ -19,7 +19,7 @@ const project = [
       id: 3,
       name: "Clock",
       description:
-        "using js to practice dates",
+        "using js to practice dates, linguages using HTML, CSS and JavaScitp",
       image: "/relogio.png",
       link:"https://manoelmorais.github.io/Relogio/",
     },

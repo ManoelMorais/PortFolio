@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 export default function Inicio() {
   return (
-    <>
+    <section>
       <Cabecalho />
       <Welcome />
       <About />
@@ -18,6 +18,6 @@ export default function Inicio() {
       <Portfolio />
       <Contact />
       <Footer />
-    </>
+    </section>
   );
 }

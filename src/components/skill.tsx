@@ -2,6 +2,7 @@ const skills = [
   {
     id: 1,
     image: "/html_icon.png",
+    description: "HTML5",
   },
   {
     id: 2,
@@ -53,7 +54,7 @@ const studying = [
 
 export default function Skills() {
   return (
-    <div className="lg:mx-14 py-32" id="estudos">
+    <div className="flex flex-col lg:mx-14 py-32" id="estudos">
       <div className="px-10">
         <p className="text-xl text-headingcolor font-semibold mb-5">
           My Skills
@@ -64,12 +65,12 @@ export default function Skills() {
         {skills.map((skill) => (
           <div
             key={skill.id}
-            className="bg-bgShade rounded-lg cursor-pointer hover:-translate-y-5 transition-all duration-300"
+            className="bg-bgShade rounded-lg cursor-pointer transition-transform hover:scale-125 duration-300"
           >
             <img
               src={skill.image}
               alt=""
-              className="w-20 h-20 p-3 bg-white rounded-lg shadow-md mb-7 border-solid border-2 border-black"
+              className="w-20 h-20 p-3 bg-white rounded-lg mb-7 border-solid border-2 hover:shadow-regal-blue"
             />
           </div>
         ))}
@@ -81,12 +82,12 @@ export default function Skills() {
         {studying.map((studying) => (
           <div
             key={studying.id}
-            className="bg-bgShade  rounded-lg cursor-pointer hover:-translate-y-5 transition-all duration-300"
+            className="bg-bgShade  rounded-lg cursor-pointer transition-transform hover:scale-125  duration-300"
           >
             <img
               src={studying.image}
               alt=""
-              className="w-20 h-20 p-3 bg-white rounded-lg shadow-md mb-7 border-solid border-2 border-black"
+              className="w-20 h-20 p-3 bg-white rounded-lg  mb-7 border-solid border-2 hover:shadow-regal-blue"
             />
           </div>
         ))}
@@ -94,3 +95,4 @@ export default function Skills() {
     </div>
   );
 }
+// hover:translate-x-10 transition-all

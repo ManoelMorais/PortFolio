@@ -1,9 +1,10 @@
 export default function About() {
   return (
-    <div className="lg:mx-12 mx-4 my-24" id="perfil">
-      <div className="flex sm:flex-row md:gap-24 gap-12 items-center">
+    <div className="lg:mx-12 mx-4 p-40" id="perfil">
+      <div className="flex sm:flex-row md:gap-24 ">
         <div className="sm:w-1/2">
           <img src="" alt="" />
+          <h1>My Photograph</h1>
         </div>
         <div>
           <div className=" pt-7 flex flex-col m-10 sm:w1/2">

@@ -1,13 +1,13 @@
 export default function AboutMe() {
   return (
-    <div className="mx-4 flex justify-center bg-slate-900 text-white  rounded-lg">
+    <div className="flex justify-center bg-slate-900 text-white">
       <div className="flex gap-x-32 flex-wrap max-md:justify-center max-md:content-center">
         <div className="pt-7 m-10 gap-5 ">
           <h3 className="text-xl text-headingcolor font-semibold mb-5 flex justify-center">
             Idioma
           </h3>
           <ul>
-            <li>English: Beginner to Intermediate</li>
+            <li>English: Beginner</li>
             <li>Spanish: Intermediate</li>
             <li>Italian: Beginner</li>
           </ul>
