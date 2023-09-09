@@ -1,21 +1,21 @@
+import Foto from "../assets/ola.webp"
+
+
 export default function About() {
   return (
-    <div className="lg:mx-12 mx-4 p-40" id="perfil">
-      <div className="flex sm:flex-row md:gap-24 ">
-        <div className="sm:w-1/2">
-          <img src="" alt="" />
+    <div id="perfil">
+      <div className="lg:px-16 flex flex-col md:flex-row items-center py-20 gap-5 ">
+        <div className="md:w-1/2 max-lg:px-20">
+          <img src={Foto} alt="my photograph"/>
           <h1>My Photograph</h1>
         </div>
-        <div>
-          <div className=" pt-7 flex flex-col m-10 sm:w1/2">
+        <div className="m-10 md:w-1/2 text-justify">
             <h2 className="text-xl text-headingcolor font-semibold mb-5">
               My studies
             </h2>
             <h5>University</h5>
             <p>system analysis and development</p>
-          </div>
-          <div className="flex flex-col m-10 ">
-            <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">
+            <h2 className="md:text-5xl text-4xl text-headingcolor font-bold mt-5">
               My profile
             </h2>
             <p className="mt-8 md:pr-8 mb-8">
@@ -34,7 +34,6 @@ export default function About() {
               Just one more person trying to become a full stack in this crazy
               world.
             </p>
-          </div>
         </div>
       </div>
     </div>
