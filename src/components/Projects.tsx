@@ -21,7 +21,7 @@ const project = [
       description:
         "using js to practice dates, linguages using HTML, CSS and JavaScitp",
       image: "/relogio.png",
-      link:"https://manoelmorais.github.io/Relogio/",
+      link:"https://manoelmorais.github.io/Pro-Relogio/",
     },
   ];
 
