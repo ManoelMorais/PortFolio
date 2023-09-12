@@ -2,7 +2,6 @@ const skills = [
   {
     id: 1,
     image: "/html_icon.png",
-    description: "HTML5",
   },
   {
     id: 2,
@@ -26,73 +25,78 @@ const skills = [
   },
 ];
 const studying = [
-    {
-      id: 7,
-      image: "/python_icon.png",
-    },
-    {
-      id: 8,
-      image: "/sql_icon.png",
-    },
-    {
-      id: 9,
-      image: "/nextjs_icon.png",
-    },
-    {
-      id: 10,
-      image: "/node_icon.png",
-    },
-    {
-      id: 11,
-      image: "/java_icon.png",
-    },
-    {
-      id: 12,
-      image: "/mongo_icon.png",
-    },
-  ];
+  {
+    id: 7,
+    image: "/python_icon.png",
+  },
+  {
+    id: 8,
+    image: "/sql_icon.png",
+  },
+  {
+    id: 9,
+    image: "/nextjs_icon.png",
+  },
+  {
+    id: 10,
+    image: "/node_icon.png",
+  },
+  {
+    id: 11,
+    image: "/java_icon.png",
+  },
+  {
+    id: 12,
+    image: "/mongo_icon.png",
+  },
+];
 
 export default function Skills() {
   return (
-    <div className="flex flex-col lg:mx-14 py-32" id="estudos">
-      <div className="px-10">
-        <p className="text-xl text-headingcolor font-semibold mb-5">
-          My Skills
-        </p>
-        <h2><i>Studying and Practicing:</i></h2>
-      </div>
-      <div className="flex justify-between m-10 gap-5 flex-wrap ">
-        {skills.map((skill) => (
-          <div
-            key={skill.id}
-            className="bg-bgShade rounded-lg cursor-pointer transition-transform hover:scale-125 duration-300"
-          >
-            <img
-              src={skill.image}
-              alt=""
-              className="w-20 h-20 p-3 bg-white rounded-lg mb-7 border-solid border-2 hover:shadow-regal-blue"
-            />
-          </div>
-        ))}
-      </div>
-      <div className="px-10">
-        <h2><i>Studying:</i></h2>
-      </div>
-      <div className="flex justify-between m-10 gap-5 flex-wrap">
-        {studying.map((studying) => (
-          <div
-            key={studying.id}
-            className="bg-bgShade  rounded-lg cursor-pointer transition-transform hover:scale-125  duration-300"
-          >
-            <img
-              src={studying.image}
-              alt=""
-              className="w-20 h-20 p-3 bg-white rounded-lg  mb-7 border-solid border-2 hover:shadow-regal-blue"
-            />
-          </div>
-        ))}
+    <div className="lg:mx-14 py-32" id="estudos">
+      <div className="flex flex-col items-center">
+        <div>
+          <h2 className="text-2xl font-semibold mb-5 flex justify-center">
+            My Skills
+          </h2>
+          <p>
+            <i>I have already studied and am practicing</i>
+          </p>
+        </div>
+        <div className="flex  m-10 gap-x-10 flex-wrap ">
+          {skills.map((skill) => (
+            <div
+              key={skill.id}
+              className="bg-bgShade rounded-lg cursor-pointer transition-transform hover:scale-125 duration-300"
+            >
+              <img
+                src={skill.image}
+                alt="itens que eu já estudei e estou praticando"
+                className="w-20 h-20 p-3 bg-white rounded-lg mb-7 border-solid border-2 "
+              />
+            </div>
+          ))}
+        </div>
+        <div className="px-10">
+          <p>
+            <i>Studying:</i>
+          </p>
+        </div>
+        <div className="flex  m-10 gap-x-10 flex-wrap">
+          {studying.map((studying) => (
+            <div
+              key={studying.id}
+              className="bg-bgShade  rounded-lg cursor-pointer transition-transform hover:scale-125  duration-300"
+            >
+              <img
+                src={studying.image}
+                alt="itens que ainda estou estudando"
+                className="w-20 h-20 p-3 bg-white rounded-lg  mb-7 border-solid border-2"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
 }
-// hover:translate-x-10 transition-all
