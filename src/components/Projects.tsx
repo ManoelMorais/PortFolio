@@ -6,6 +6,7 @@ const project = [
         "made in pure js to learn, linguages using HTML, CSS and JavaScitp",
       image: "/ping_pong.png",
       link:"https://manoelmorais.github.io/Ping-Pong/",
+      git:"https://github.com/ManoelMorais/Ping-Pong",
     },
     {
       id: 2,
@@ -14,6 +15,7 @@ const project = [
         "Practice, linguages using HTML, CSS and JavaScitp",
       image: "/login.png",
       link:"https://manoelmorais.github.io/Login/",
+      git:"https://github.com/ManoelMorais/Login",
     },
     {
       id: 3,
@@ -22,6 +24,7 @@ const project = [
         "using js to practice dates, linguages using HTML, CSS and JavaScitp",
       image: "/relogio.png",
       link:"https://manoelmorais.github.io/Pro-Relogio/",
+      git:"https://github.com/ManoelMorais/Pro-Relogio",
     },
   ];
 
@@ -43,6 +46,7 @@ export default function Portfolio() {
                 <h3 className="text-2xl font-semibold mb-2 text-headingcolor">{project.name}</h3>
                 <p className="text-body mb-4">{project.description}</p>
                 <a href={project.link} className="underline underline-offset-8">View Project</a>
+                <a href={project.git} className="underline underline-offset-8 mx-5">View GitHub</a>
               </div>
             </div>)
           }
