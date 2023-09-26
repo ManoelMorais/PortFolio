@@ -13,12 +13,12 @@ export default function About() {
             <h2 className="text-xl text-headingcolor font-semibold mb-5">
               My studies
             </h2>
-            <h5>University</h5>
-            <p>system analysis and development</p>
+            <h5 className="font-robot">University</h5>
+            <p className="font-robot">system analysis and development</p>
             <h2 className="md:text-5xl text-4xl text-headingcolor font-bold mt-5">
               My profile
             </h2>
-            <p className="mt-8 md:pr-8 mb-8">
+            <p className="mt-8 md:pr-8 mb-8 font-robot">
               Hello, my name is Manoel Almeida de Morais, I'm 18 years old,
               passionate about games, cats, and technology. Since I was young,
               I've always enjoyed these things, and in the last year, I decided

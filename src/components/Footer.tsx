@@ -3,27 +3,12 @@ import { AiFillGithub } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <div className="py-10 md:px-10 px-4 bg-slate-900 text-white">
+    <div className="py-10 md:px-10 px-4 bg-azul-petroleo text-white">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-8">
         <div className="flex flex-col md:flex-row md:items-center gap-4 flex-wrap scroll-smooth">
           <a
-            href="#home"
-            className="block text-primary hover:text-cyan-400 py-2 px-4"
-          >
-            Home
-          </a>
-          <a href="#perfil" className="block hover:text-teal-300 py-2 px-4">
-            Perfil
-          </a>
-          <a href="#projetos" className="block  hover:text-teal-300 py-2 px-4">
-            Projetos
-          </a>
-          <a href="#estudos" className="block  hover:text-teal-300 py-2 px-4">
-            Estudos
-          </a>
-          <a
             href="https://blog-mu-one.vercel.app/"
-            className="block  hover:text-teal-300 py-2 px-4"
+            className="block  hover:text-yello-text py-2 px-4 font-robot"
           >
             Blog
           </a>
@@ -50,7 +35,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="border-t-4">
+      <div className="border-t-4 m-3">
         <p>Made with 💖</p>
       </div>
     </div>

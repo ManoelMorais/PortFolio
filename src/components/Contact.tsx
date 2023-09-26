@@ -90,7 +90,7 @@ export default function Contact() {
             >
             </textarea>
           </div>
-          <div className="w-36 mx-auto border rounded-lg bg-sky-950  hover:bg-sky-400">
+          <div className="w-36 mx-auto border rounded-lg bg-azul-petroleo  hover:bg-sky-400">
             <a href="mailto"></a>
             <input 
               type="submit"

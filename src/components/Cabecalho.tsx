@@ -6,15 +6,14 @@ export default function Cabecalho() {
   const Links = [
     { name: "Home", link: "#home" },
     { name: "Profile", link: "#perfil" },
-    { name: "Projects", link: "#projetos" },
     { name: "Skill", link: "#estudos" },
-    { name: "Blog", link: "https://blog-mu-one.vercel.app/"},
+    { name: "Projects", link: "#projetos" },
   ];
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="shadow-md w-full fixed top-0 left-0 ">
-      <div className="md:flex items-center justify-between bg-slate-900 text-white py-4 md:px-10 px-7">
+    <div className="shadow-md w-full fixed top-0 left-0 scroll-smooth hover:scroll-auto font-robot">
+      <div className="md:flex items-center justify-between bg-azul-petroleo text-white py-4 md:px-10 px-7 scroll-smooth hover:scroll-auto">
         {/* logo section */}
         <div className="font-bold text-2xl flex items-center gap-1">
           <img className="w-14" src={logo} alt="" />
@@ -32,10 +31,10 @@ export default function Cabecalho() {
           }`}
         >
           {Links.map((link) => (
-            <li className="md:ml-8 md:my-0 my-7 font-semibold">
+            <li className="md:ml-8 md:my-0 my-7 font-semibold scroll-smooth hover:scroll-auto">
               <a
                 href={link.link}
-                className="text-white hover:text-teal-300 duration-500"
+                className="text-white hover:text-yello-text duration-500 scroll-smooth hover:scroll-auto"
               >
                 {link.name}
               </a>
