@@ -13,7 +13,7 @@ const project = [
       name: "Infors",
       description:
         "Practice, linguages Next.js",
-      image: "/login.png",
+      image: "/infros.png",
       link:"https://pro-infors.vercel.app/",
       git:"https://github.com/ManoelMorais/Pro-infors",
     },
