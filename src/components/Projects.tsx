@@ -10,12 +10,12 @@ const project = [
     },
     {
       id: 2,
-      name: "Login",
+      name: "Infors",
       description:
-        "Practice, linguages using HTML, CSS and JavaScitp",
+        "Practice, linguages Next.js",
       image: "/login.png",
-      link:"https://manoelmorais.github.io/Login/",
-      git:"https://github.com/ManoelMorais/Login",
+      link:"https://pro-infors.vercel.app/",
+      git:"https://github.com/ManoelMorais/Pro-infors",
     },
     {
       id: 3,
