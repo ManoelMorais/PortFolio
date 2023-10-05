@@ -10,10 +10,10 @@ export default {
         'azul-petroleo': '#001429',
       },
       textColor: {
-        'yello-text': '#FCFF4B',
+        'yello-text': '#daa520',
       },
       fontFamily: {
-        'robot': ['Roboto', 'sans-serif'],
+        'robot': ['Roboto Slob', 'serif'],
       },
     },
   },

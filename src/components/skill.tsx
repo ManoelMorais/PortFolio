@@ -49,6 +49,10 @@ const studying = [
     id: 12,
     image: "/mongo_icon.png",
   },
+  {
+    id: 13,
+    image: "/insomnia_icon.png"
+  },
 ];
 
 export default function Skills() {
@@ -56,7 +60,7 @@ export default function Skills() {
     <div className="lg:mx-14 py-32 font-robot" id="estudos">
       <div className="flex flex-col items-center">
         <div>
-          <h2 className="text-2xl font-semibold mb-5 flex justify-center">
+          <h2 className="text-2xl font-bold mb-5 flex justify-center">
             My Skills
           </h2>
           <p>

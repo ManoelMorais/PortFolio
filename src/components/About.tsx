@@ -10,12 +10,12 @@ export default function About() {
           <h1>My Photograph</h1>
         </div>
         <div className="m-10 md:w-1/2 text-justify">
-            <h2 className="text-xl text-headingcolor font-semibold mb-5">
+            <h2 className="text-xl font-bold mb-5">
               My studies
             </h2>
             <h5 className="font-robot">University</h5>
             <p className="font-robot">system analysis and development</p>
-            <h2 className="md:text-5xl text-4xl text-headingcolor font-bold mt-5">
+            <h2 className="md:text-5xl text-4xl font-bold mt-5">
               My profile
             </h2>
             <p className="mt-8 md:pr-8 mb-8 font-robot">

@@ -15,7 +15,7 @@ export default function Cabecalho() {
     <div className="shadow-md w-full fixed top-0 left-0 scroll-smooth hover:scroll-auto font-robot">
       <div className="md:flex items-center justify-between bg-azul-petroleo text-white py-4 md:px-10 px-7 scroll-smooth hover:scroll-auto">
         {/* logo section */}
-        <div className="font-bold text-2xl flex items-center gap-1">
+        <div className="font-bold text-3xl flex items-center gap-1">
           <img className="w-14" src={logo} alt="" />
           <span>Welcome ✨</span>
         </div>
@@ -31,7 +31,7 @@ export default function Cabecalho() {
           }`}
         >
           {Links.map((link) => (
-            <li className="md:ml-8 md:my-0 my-7 font-semibold scroll-smooth hover:scroll-auto">
+            <li className="md:ml-8 md:my-0 my-7 font-semibold text-lg scroll-smooth hover:scroll-auto">
               <a
                 href={link.link}
                 className="text-white hover:text-yello-text duration-500 scroll-smooth hover:scroll-auto"

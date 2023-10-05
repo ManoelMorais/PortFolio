@@ -1,9 +1,9 @@
 export default function AboutMe() {
   return (
-    <div className="flex justify-center bg-azul-petroleo text-white font-robot">
+    <div className="flex justify-center bg-azul-petroleo text-white font-robot h-80">
       <div className="flex gap-x-32 flex-wrap max-md:justify-center max-md:content-center">
-        <div className="pt-7 m-10 gap-5 bg-white text-azul-petroleo p-3 rounded-xl">
-          <h3 className="text-xl text-headingcolor font-semibold mb-5 flex justify-center">
+        <div className="pt-7 m-10 gap-5 p-3 rounded-xl">
+          <h3 className="text-xl font-semibold mb-5 flex justify-center">
             Idioma
           </h3>
           <ul>
@@ -12,12 +12,12 @@ export default function AboutMe() {
             <li>Italian: Beginner</li>
           </ul>
         </div>
-        <div className="pt-7 m-10 gap-5  bg-white text-azul-petroleo p-3 rounded-xl">
-          <h3 className="text-xl text-headingcolor font-semibold mb-5 flex justify-center ">Goal</h3>
+        <div className="pt-7 m-10 gap-5 p-3 rounded-xl">
+          <h3 className="text-xl text-headingcolor font-semibold mb-5 flex justify-center">Goal</h3>
           <p className="font-robot">Full Stack Developer</p>
         </div>
-        <div className="pt-7 m-10 gap-5  bg-white text-azul-petroleo p-3 rounded-xl">
-          <h3 className="text-xl text-headingcolor font-semibold mb-5 flex justify-center">
+        <div className="pt-7 m-10 gap-5 text-wite p-3 rounded-xl">
+          <h3 className="text-xl font-semibold mb-5 flex justify-center">
             Skills
           </h3>
           <ul>

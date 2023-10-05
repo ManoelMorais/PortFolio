@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 *{
   scroll-behavior: smooth;
 }
@@ -24,6 +22,6 @@
   
   /* Estilo da parte deslizante quando passar o mouse por cima */
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #FCFF4B; /* Cor da parte deslizante quando o mouse passa por cima */
+    background-color: #daa520; /* Cor da parte deslizante quando o mouse passa por cima */
   }
   
