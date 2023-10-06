@@ -49,10 +49,6 @@ const studying = [
     id: 12,
     image: "/mongo_icon.png",
   },
-  {
-    id: 13,
-    image: "/insomnia_icon.png"
-  },
 ];
 
 export default function Skills() {
