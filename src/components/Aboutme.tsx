@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <section className="bg-azul-petroleo text-white p-10">
+    <div className="bg-azul-petroleo text-white p-10">
       <div className="flex flex-wrap justify-center">
         <div className="my-10 mx-10 text-center">
             <h2 className="font-semibold m-5">Language</h2>
@@ -28,6 +28,6 @@ export default function AboutMe() {
             </ul>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
