@@ -1,34 +1,33 @@
 export default function AboutMe() {
   return (
-    <div className="flex justify-center bg-azul-petroleo text-white font-robot h-80">
-      <div className="flex gap-x-32 flex-wrap max-md:justify-center max-md:content-center">
-        <div className="pt-7 m-10 gap-5 p-3 rounded-xl">
-          <h3 className="text-xl font-semibold mb-5 flex justify-center">
-            Idioma
-          </h3>
-          <ul>
-            <li>English: Beginner</li>
-            <li>Spanish: Intermediate</li>
-            <li>Italian: Beginner</li>
-          </ul>
+    <section className="bg-azul-petroleo text-white p-10">
+      <div className="flex flex-wrap justify-center">
+        <div className="my-10 mx-10 text-center">
+            <h2 className="font-semibold m-5">Language</h2>
+            <ul className="font-robot" >
+              <li>English.......Beginner to intermediate</li>
+              <li>Spanish.......Intermediate</li>
+              <li>Italian.......Beginner</li>
+            </ul>
         </div>
-        <div className="pt-7 m-10 gap-5 p-3 rounded-xl">
-          <h3 className="text-xl text-headingcolor font-semibold mb-5 flex justify-center">Goal</h3>
-          <p className="font-robot">Full Stack Developer</p>
+        <div className="my-10 mx-10 text-center">
+            <h2 className="font-semibold m-5">Goal</h2>
+            <ul className="font-robot" >
+              <li>Full-Stack Developer</li>
+            </ul>
         </div>
-        <div className="pt-7 m-10 gap-5 text-wite p-3 rounded-xl">
-          <h3 className="text-xl font-semibold mb-5 flex justify-center">
-            Skills
-          </h3>
-          <ul>
-            <li>Focus and Dedication</li>
-            <li>Project Planning</li>
-            <li>Comunication</li>
-            <li>Problems Soluction</li>
-            <li>pass the rage</li>
-          </ul>
+        <div className="my-10 mx-10 text-center">
+            <h2 className="font-semibold m-5">Skills</h2>
+            <ul className="font-robot" >
+              <li>Project planning</li>
+              <li>Communication Troubleshooting</li>
+              <li>Essay</li>
+              <li>Programming computing</li>
+              <li>Programming languages</li>
+              <li>Problem solving</li>
+            </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

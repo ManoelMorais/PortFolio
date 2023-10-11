@@ -10,7 +10,7 @@ export default function Welcome() {
         <div className="md:w-1/2 w-full mt-5 max-lg:p-10">
           <p className="text-xl text-headingcolor font-semibold mb-5">
             Olá, Holla, Hi, Ciao,
-            <span className="text-yello-text"> I am Morais Manoel</span>
+            <span className="text-yello-text"> I am Manoel Morais</span>
           </p>
           <h1 className="font-bold text-headingcolor leading-snug md:leading-[76px]  mb-5 text-yello-text">
             Developer passionate about technology

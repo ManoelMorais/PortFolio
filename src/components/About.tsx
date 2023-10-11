@@ -1,12 +1,8 @@
-import Foto from "../assets/ola.webp"
-
-
 export default function About() {
   return (
     <div id="perfil">
       <div className="lg:px-16 flex flex-col md:flex-row items-center py-20 gap-5 ">
         <div className="md:w-1/2 max-lg:px-20">
-          <img src={Foto} alt="my photograph"/>
           <h1>My Photograph</h1>
         </div>
         <div className="m-10 md:w-1/2 text-justify">

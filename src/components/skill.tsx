@@ -63,7 +63,7 @@ export default function Skills() {
             <i>I have already studied and am practicing</i>
           </p>
         </div>
-        <div className="flex  m-10 gap-x-10 flex-wrap ">
+        <div className="flex m-10 gap-x-10 flex-wrap justify-center ">
           {skills.map((skill) => (
             <div
               key={skill.id}
@@ -82,7 +82,7 @@ export default function Skills() {
             <i>Studying:</i>
           </p>
         </div>
-        <div className="flex  m-10 gap-x-10 flex-wrap">
+        <div className="flex  m-10 gap-x-10 flex-wrap justify-center">
           {studying.map((studying) => (
             <div
               key={studying.id}
