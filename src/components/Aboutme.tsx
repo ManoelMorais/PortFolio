@@ -21,10 +21,9 @@ export default function AboutMe() {
             <ul className="font-robot" >
               <li>Project planning</li>
               <li>Communication Troubleshooting</li>
-              <li>Essay</li>
-              <li>Programming computing</li>
               <li>Programming languages</li>
               <li>Problem solving</li>
+              <li>Get angry</li>
             </ul>
         </div>
       </div>
