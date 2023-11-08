@@ -1,11 +1,11 @@
-import logo from "../assets/ola.webp";
+import logo from "../assets/fundo.png";
 
 export default function Welcome() {
   return (
     <div className="bg-bgShade bg-azul-petroleo  text-white shadow-md font-robot" id="home">
       <div className="lg:px-16 flex flex-col md:flex-row-reverse items-center justify-between py-20 gap-5">
         <div className="md:w-1/2 w-full max-lg:px-20">
-          <img src={logo} alt="" className="w-11/12" />
+          <img src={logo} alt="" className="w-11/12 filter drop-shadow-4xl" />
         </div>
         <div className="md:w-1/2 w-full mt-5 max-lg:p-10">
           <p className="text-xl text-headingcolor font-semibold mb-5">

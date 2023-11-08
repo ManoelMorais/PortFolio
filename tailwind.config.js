@@ -15,6 +15,11 @@ export default {
       fontFamily: {
         'robot': ['Roboto Slob', 'serif'],
       },
+      dropShadow: {
+        '4xl': [
+            '15px 7px 5px rgba(218,165,32)',
+        ]
+      }
     },
   },
   plugins: [],
