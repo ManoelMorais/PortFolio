@@ -10,12 +10,12 @@ const project = [
     },
     {
       id: 2,
-      name: "Infors",
+      name: "Controle Financeiro",
       description:
-        "Practice, linguages Next.js",
-      image: "/Infors.png",
-      link:"https://pro-infors.vercel.app/",
-      git:"https://github.com/ManoelMorais/Pro-infors",
+        "Practice, linguages React.js",
+      image: "/Financeiro.png",
+      link:"https://pro-financeiro.vercel.app/",
+      git:"https://github.com/ManoelMorais/Pro-financeiro",
     },
     {
       id: 3,
@@ -45,8 +45,8 @@ export default function Portfolio() {
               <div className="p-8">
                 <h3 className="text-2xl font-semibold mb-2 text-headingcolor">{project.name}</h3>
                 <p className="text-body mb-4">{project.description}</p>
-                <a href={project.link} className="underline underline-offset-8">View Project</a>
-                <a href={project.git} className="underline underline-offset-8 mx-5">View GitHub</a>
+                <a href={project.link} target="_blank" className="underline underline-offset-8">View Project</a>
+                <a href={project.git} target="_blank" className="underline underline-offset-8 mx-5">View GitHub</a>
               </div>
             </div>)
           }
