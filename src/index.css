@@ -12,16 +12,16 @@
   
   /* Estilo da parte deslizante da barra de rolagem */
   ::-webkit-scrollbar-thumb {
-    background-color: white; /* Cor da parte deslizante */
+    background-color: #FFECC1; /* Cor da parte deslizante */
   }
   
   /* Estilo da pista da barra de rolagem */
   ::-webkit-scrollbar-track {
-    background-color: #010C13; /* Cor de fundo da pista */
+    background-color: #364461; /* Cor de fundo da pista */
   }
   
   /* Estilo da parte deslizante quando passar o mouse por cima */
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #daa520; /* Cor da parte deslizante quando o mouse passa por cima */
+    background-color: #BF9246; /* Cor da parte deslizante quando o mouse passa por cima */
   }
   
