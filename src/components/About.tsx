@@ -6,15 +6,15 @@ export default function About() {
           <h1>My Photograph</h1>
         </div>
         <div className="m-10 md:w-1/2 text-justify">
-            <h2 className="text-xl font-bold mb-5">
+            <h2 className="text-xl mb-5">
               My studies
             </h2>
-            <h5 className="font-robot">University</h5>
-            <p className="font-robot">system analysis and development</p>
-            <h2 className="md:text-5xl text-4xl font-bold mt-5">
+            <h5 className="">University</h5>
+            <p className="">system analysis and development</p>
+            <h2 className="md:text-5xl text-4xl mt-5">
               My profile
             </h2>
-            <p className="mt-8 md:pr-8 mb-8 font-robot">
+            <p className="mt-8 md:pr-8 mb-8">
               Hello, my name is Manoel Almeida de Morais, I'm 18 years old,
               passionate about games, cats, and technology. Since I was young,
               I've always enjoyed these things, and in the last year, I decided

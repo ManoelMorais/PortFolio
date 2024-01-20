@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div className="lg:px-12 px-4">
       <div className="mb-20 text-center">
-        <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">
+        <h2 className="md:text-5xl text-4xl text-headingcolor">
           Contact me
         </h2>
       </div>
@@ -90,12 +90,12 @@ export default function Contact() {
             >
             </textarea>
           </div>
-          <div className="w-36 mx-auto border rounded-lg bg-azul-petroleo  hover:bg-sky-400">
+          <div className="w-36 mx-auto border rounded-lg bg-principal  hover:bg-sky-400">
             <a href="mailto"></a>
             <input 
               type="submit"
               value="Submit"
-              className="btn-primary py-3 bg-primary px-8 text-white font-medium rounded-b-md cursor-pointer inline-block w-full "
+              className="btn-primary py-3 bg-primary px-8 text-extras rounded-b-md cursor-pointer inline-block w-full "
               required
             />
           </div>

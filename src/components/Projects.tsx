@@ -30,10 +30,10 @@ const project = [
 
 export default function Portfolio() {
   return (
-    <div className="lg:mx-12 mx-4 my-32 bg font-robot" id="projetos">
+    <div className="lg:mx-12 mx-4 my-32 bg" id="projetos">
       <div className="mb-20 flex flex-col sm:flex-row md:items-center justify-between gap-5">
         <div>
-          <h2 className="md:text-3xl text-4xl text-headingcolor font-bold">
+          <h2 className="md:text-3xl text-4xl text-headingcolor">
             Best Projects
           </h2>
         </div>
@@ -43,7 +43,7 @@ export default function Portfolio() {
             project.map(project => <div key={project.id} className="shadow-xl rounded-lg">
               <img src={project.image} alt="" />
               <div className="p-8">
-                <h3 className="text-2xl font-semibold mb-2 text-headingcolor">{project.name}</h3>
+                <h3 className="text-2xl mb-2 text-headingcolor">{project.name}</h3>
                 <p className="text-body mb-4">{project.description}</p>
                 <a href={project.link} target="_blank" className="underline underline-offset-8">View Project</a>
                 <a href={project.git} target="_blank" className="underline underline-offset-8 mx-5">View GitHub</a>

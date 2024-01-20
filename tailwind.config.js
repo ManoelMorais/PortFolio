@@ -7,21 +7,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        'azul-petroleo': '#001429',
+        'principal': '#162238',
+        'secundaria': '#BF9246',
+        'terciaria': '#FAF4E8',
       },
       textColor: {
-        'yello-text': '#daa520',
-      },
-      fontFamily: {
-        'robot': ['Roboto Slob', 'serif'],
+        'extras': '#FFECC1',
+        'headingcolor': '#364461',
+        'hove': '#BF9246',
       },
       dropShadow: {
         '4xl': [
-            '15px 7px 5px rgba(218,165,32)',
+          '15px 7px 5px #BF9246',
         ]
       }
     },
   },
   plugins: [],
 }
-
