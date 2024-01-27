@@ -35,9 +35,9 @@ export default function Portfolio() {
           <div className="mb-20">
               <h2 className="text-4xl text-headingcolor">Best Projects</h2>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
             {project.map((project) => (
-              <div key={project.id} className="shadow-xl rounded-lg">
+              <div key={project.id} className="shadow-xl rounded-lg hover:scale-110 duration-500 cursor-pointer">
                 <img src={project.image} alt="" />
                 <div className="p-8">
                   <h3 className="text-2xl mb-2 text-headingcolor">

@@ -1,3 +1,7 @@
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
+import { MdArrowBackIos } from "react-icons/md";
+import { MdOutlineArrowForwardIos } from "react-icons/md";
+
 const skills = [
   {
     id: 0,
@@ -72,11 +76,12 @@ export default function Skills() {
       <div className="bg-terciario py-40">
         <div className="flex flex-col items-center">
           <div>
-            <h2 className="text-2xl font-bold mb-5 flex justify-center">
-              My Skills
+            <h2 className="text-4xl font-bold mb-5 flex justify-center text-headingcolor">
+            <MdArrowBackIos /> My Technology Skills <MdOutlineArrowForwardIos />
             </h2>
-            <p>
-              <i>I have already studied and am practicing</i>
+            <p className="text-xl flex justify-center gap-5 pt-10">
+              <MdKeyboardDoubleArrowDown /> I have already studied and am
+              practicing <MdKeyboardDoubleArrowDown />
             </p>
           </div>
           <div className="flex m-10 gap-x-10 flex-wrap justify-center ">
@@ -93,9 +98,10 @@ export default function Skills() {
               </div>
             ))}
           </div>
-          <div className="px-10">
-            <p>
-              <i>Studying</i>
+          <div>
+            <p className="text-xl flex justify-center gap-5">
+              <MdKeyboardDoubleArrowDown /> Studying{" "}
+              <MdKeyboardDoubleArrowDown />
             </p>
           </div>
           <div className="flex  m-10 gap-x-10 flex-wrap justify-center">
@@ -113,8 +119,9 @@ export default function Skills() {
             ))}
           </div>
           <div>
-            <p>
-              <i>I studied, but I don't want to make it my main skill</i>
+            <p className="text-xl flex justify-center gap-5">
+              <MdKeyboardDoubleArrowDown /> I studied, but I don't want to make
+              it my main skill <MdKeyboardDoubleArrowDown />
             </p>
           </div>
           <div className="flex m-10 gap-x-10 flex-wrap justify-center ">
