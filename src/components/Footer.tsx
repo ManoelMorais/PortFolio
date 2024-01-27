@@ -4,8 +4,8 @@ import { AiFillGithub } from "react-icons/ai";
 export default function Footer() {
   return (
     <div className="py-10 md:px-10 px-4 bg-principal text-extras">
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-8">
-        <div className="flex flex-col md:flex-row md:items-center gap-4 flex-wrap scroll-smooth">
+      <div className="flex flex-col md:flex-row md:items-center justify-between">
+        <div className="flex flex-col md:flex-row md:items-center flex-wrap scroll-smooth">
           <a
             href="https://blog-mu-one.vercel.app/"
             className="block  hover:text-yello-text py-2 px-4"

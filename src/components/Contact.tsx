@@ -1,12 +1,12 @@
 export default function Contact() {
   return (
-    <div className="lg:px-12 px-4">
-      <div className="mb-20 text-center">
+    <div className="bg-terciario w-full">
+      <div className="text-center">
         <h2 className="md:text-5xl text-4xl text-headingcolor">
           Contact me
         </h2>
       </div>
-      <div className="md:w-2/3 mx-auto mb-20">
+      <div className="md:w-2/3 mx-auto p-10">
         <form action="https://formsubmit.co/999142818m@gmail.com" method="post" name="form">
           <div className="flex flex-col sm:flex-row gap-8 items-center mb-8 justify-center">
             <div className="sm:w-1/2 w-full">
@@ -14,7 +14,7 @@ export default function Contact() {
                 htmlFor="name"
                 className="text-base text-headingcolor w-full"
               >
-                your name
+                Your name
               </label>
               <input
                 type="text"

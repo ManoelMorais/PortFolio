@@ -49,7 +49,7 @@ const studying = [
 
 export default function Skills() {
   return (
-    <div className="lg:mx-14 py-32" id="estudos">
+    <div className="bg-terciario" id="estudos">
       <div className="flex flex-col items-center">
         <div>
           <h2 className="text-2xl font-bold mb-5 flex justify-center">

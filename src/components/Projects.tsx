@@ -30,7 +30,7 @@ const project = [
 
 export default function Portfolio() {
   return (
-    <div className="lg:mx-12 mx-4 my-32 bg" id="projetos">
+    <div className="bg-terciario p-10" id="projetos">
       <div className="mb-20 flex flex-col sm:flex-row md:items-center justify-between gap-5">
         <div>
           <h2 className="md:text-3xl text-4xl text-headingcolor">

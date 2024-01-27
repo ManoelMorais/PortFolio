@@ -9,10 +9,10 @@ export default {
       colors: {
         'principal': '#162238',
         'secundaria': '#BF9246',
-        'terciaria': '#FAF4E8',
+        'terciario': '#f3f3f3',
       },
       textColor: {
-        'extras': '#FFECC1',
+        'extras': '#FFF9EB',
         'headingcolor': '#364461',
         'hove': '#BF9246',
       },

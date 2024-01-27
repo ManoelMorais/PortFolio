@@ -3,19 +3,19 @@ import logo from "../assets/fundo.png";
 export default function Welcome() {
   return (
     <div
-      className="bg-bgShade bg-principal text-extras shadow-md gap-10"
+      className="bg-principal text-extras shadow-md"
       id="home"
     >
       <div className="lg:px-16 flex flex-col md:flex-row-reverse items-center justify-between py-20 gap-5">
-        <div className="md:w-1/2 w-full max-lg:px-20">
+        <div className="md:w-1/2 w-full">
           <img src={logo} alt="" className="w-11/12 filter drop-shadow-4xl" />
         </div>
-        <div className="md:w-1/2 w-full max-lg:p-10">
+        <div className="md:w-1/2 max-lg:p-10">
           <p className="text-xl">Olá, Holla, Hi</p>
-          <h1 className="text-xl leading-snug md:leading-[76px]">
+          <h1 className="text-xl leading-[76px]">
             I am Manoel Morais
           </h1>
-          <p className="text-xl text-justify">
+          <p className="text-1xl text-justify indent-3.5">
             Welcome to my portfolio! I'm a passionate programmer dedicated to
             turning lines of code into functional and innovative solutions. With
             a problem-solving mindset, I've been working on a variety of
