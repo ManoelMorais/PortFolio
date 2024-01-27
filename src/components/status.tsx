@@ -3,20 +3,20 @@ export default function AboutMe() {
     <div className="bg-principal text-extras p-10">
       <div className="flex flex-wrap justify-center gap-16">
         <div className="text-center">
-            <h2 className="m-5">Language</h2>
+            <h2 className="text-3xl my-5">Language</h2>
             <ul>
               <li>English.......Beginner to intermediate</li>
               <li>Spanish.......Intermediate</li>
             </ul>
         </div>
         <div className="text-center">
-            <h2 className="m-5">Goal</h2>
+            <h2 className="text-3xl my-5">Goal</h2>
             <ul>
-              <li>Full-Stack Developer</li>
+              <li>Full-Stack Developer </li>
             </ul>
         </div>
         <div className="text-center">
-            <h2 className="m-5">Skills</h2>
+            <h2 className="text-3xl my-5">Skills</h2>
             <ul>
               <li>Communication Troubleshooting</li>
               <li>Programming languages</li>
