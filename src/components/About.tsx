@@ -63,7 +63,7 @@ export default function About() {
           </p>
           <div className="bg-principal text-extras p-5 w-60 flex justify-center rounded-lg mt-10">
             <DownloadButton
-              fileUrl="/public/documents/curriculo.pdf"
+              fileUrl="/documents/curriculo.pdf"
               fileName="Curriculo"
             />
           </div>
