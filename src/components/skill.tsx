@@ -1,72 +1,78 @@
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
-import { MdArrowBackIos } from "react-icons/md";
-import { MdOutlineArrowForwardIos } from "react-icons/md";
 
 const skills = [
   {
     id: 0,
-    image: "git.png",
+    image: "/src/assets/imges/git.png",
   },
   {
     id: 1,
-    image: "/html_icon.png",
+    image: "/src/assets/imges/html_icon.png",
   },
   {
     id: 2,
-    image: "/css-icon.png",
+    image: "/src/assets/imges/css-icon.png",
   },
   {
     id: 3,
-    image: "/javascript_icon.png",
+    image: "/src/assets/imges/javascript_icon.png",
   },
   {
     id: 4,
-    image: "/typescriptl_icon.png",
+    image: "/src/assets/imges/typescriptl_icon.png",
   },
   {
     id: 5,
-    image: "/reactjs_icon.png",
+    image: "/src/assets/imges/reactjs_icon.png",
   },
   {
     id: 6,
-    image: "/tailwind_icon.png",
+    image: "/src/assets/imges/tailwind_icon.png",
+  },
+  {
+    id: 18,
+    image: "/src/assets/imges/angular.png",
+  },
+  {
+    id: 7,
+    image: "/src/assets/imges/sql_icon.png",
+  },
+  {
+    id: 9,
+    image: "/src/assets/imges/node_icon.png",
+  },
+  {
+    id: 11,
+    image: "/src/assets/imges/docker.png",
   },
 ];
 const studying = [
   {
-    id: 7,
-    image: "/sql_icon.png",
-  },
-  {
     id: 8,
-    image: "/nextjs_icon.png",
-  },
-  {
-    id: 9,
-    image: "/node_icon.png",
+    image: "/src/assets/imges/nextjs_icon.png",
   },
   {
     id: 10,
-    image: "/java_icon.png",
+    image: "/src/assets/imges/java_icon.png",
   },
   {
     id: 11,
-    image: "/android.png",
+    image: "/src/assets/imges/android.png",
   },
   {
     id: 10,
-    image: "/ubuntu.png",
+    image: "/src/assets/imges/ubuntu.png",
   },
   {
-    id: 11,
-    image: "/docker.png",
-  },
+    id: 19,
+    image: "/src/assets/imges/spring-boot.png",
+  }
 ];
 
 const learnNot = [
   {
     id: 17,
-    image: "/python_icon.png",
+    image: "/src/assets/imges/python_icon.png",
   },
 ];
 
@@ -77,9 +83,9 @@ export default function Skills() {
         <div className="flex flex-col items-center">
           <div>
             <h2 className="text-4xl font-bold mb-5 flex justify-center text-headingcolor">
-            <MdArrowBackIos /> My Technology Skills <MdOutlineArrowForwardIos />
+              My Technology Skills
             </h2>
-            <p className="text-xl flex justify-center gap-5 pt-10">
+            <p className="text-xl flex items-center gap-5 pt-10">
               <MdKeyboardDoubleArrowDown /> I have already studied and am
               practicing <MdKeyboardDoubleArrowDown />
             </p>
@@ -99,7 +105,7 @@ export default function Skills() {
             ))}
           </div>
           <div>
-            <p className="text-xl flex justify-center gap-5">
+            <p className="text-xl flex items-center gap-5">
               <MdKeyboardDoubleArrowDown /> Studying{" "}
               <MdKeyboardDoubleArrowDown />
             </p>
@@ -119,7 +125,7 @@ export default function Skills() {
             ))}
           </div>
           <div>
-            <p className="text-xl flex justify-center gap-5">
+            <p className="text-xl flex items-center gap-5">
               <MdKeyboardDoubleArrowDown /> I studied, but I don't want to make
               it my main skill <MdKeyboardDoubleArrowDown />
             </p>

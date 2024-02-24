@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
-import logo from "../assets/abertura.webp"
+import logo from "../assets/fav/abertura.webp"
 
 export default function Cabecalho() {
   const Links = [
