@@ -3,76 +3,76 @@ import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 const skills = [
   {
     id: 0,
-    image: "/src/assets/imges/git.png",
+    image: "/src/assets/images/git.png",
   },
   {
     id: 1,
-    image: "/src/assets/imges/html_icon.png",
+    image: "/src/assets/images/html_icon.png",
   },
   {
     id: 2,
-    image: "/src/assets/imges/css-icon.png",
+    image: "/src/assets/images/css-icon.png",
   },
   {
     id: 3,
-    image: "/src/assets/imges/javascript_icon.png",
+    image: "/src/assets/images/javascript_icon.png",
   },
   {
     id: 4,
-    image: "/src/assets/imges/typescriptl_icon.png",
+    image: "/src/assets/images/typescriptl_icon.png",
   },
   {
     id: 5,
-    image: "/src/assets/imges/reactjs_icon.png",
+    image: "/src/assets/images/reactjs_icon.png",
   },
   {
     id: 6,
-    image: "/src/assets/imges/tailwind_icon.png",
+    image: "/src/assets/images/tailwind_icon.png",
   },
   {
     id: 18,
-    image: "/src/assets/imges/angular.png",
+    image: "/src/assets/images/angular.png",
   },
   {
     id: 7,
-    image: "/src/assets/imges/sql_icon.png",
+    image: "/src/assets/images/sql_icon.png",
   },
   {
     id: 9,
-    image: "/src/assets/imges/node_icon.png",
+    image: "/src/assets/images/node_icon.png",
   },
   {
     id: 11,
-    image: "/src/assets/imges/docker.png",
+    image: "/src/assets/images/docker.png",
   },
 ];
 const studying = [
   {
     id: 8,
-    image: "/src/assets/imges/nextjs_icon.png",
+    image: "/src/assets/images/nextjs_icon.png",
   },
   {
     id: 10,
-    image: "/src/assets/imges/java_icon.png",
+    image: "/src/assets/images/java_icon.png",
   },
   {
     id: 11,
-    image: "/src/assets/imges/android.png",
+    image: "/src/assets/images/android.png",
   },
   {
     id: 10,
-    image: "/src/assets/imges/ubuntu.png",
+    image: "/src/assets/images/ubuntu.png",
   },
   {
     id: 19,
-    image: "/src/assets/imges/spring-boot.png",
+    image: "/src/assets/images/spring-boot.png",
   }
 ];
 
 const learnNot = [
   {
     id: 17,
-    image: "/src/assets/imges/python_icon.png",
+    image: "/src/assets/images/python_icon.png",
   },
 ];
 
