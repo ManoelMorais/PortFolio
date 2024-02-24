@@ -4,7 +4,7 @@ const project = [
     name: "Game",
     description:
       "made in pure js to learn, linguages using HTML, CSS and JavaScitp",
-    image: "/src/assets/imges/ping_pong.png",
+    image: "images/ping_pong.png",
     link: "https://manoelmorais.github.io/Ping-Pong/",
     git: "https://github.com/ManoelMorais/Ping-Pong",
   },
@@ -12,7 +12,7 @@ const project = [
     id: 2,
     name: "Controle Financeiro",
     description: "Practice, linguages React.js.",
-    image: "/src/assets/imges/Financeiro.png",
+    image: "images/Financeiro.png",
     link: "https://pro-financeiro.vercel.app/",
     git: "https://github.com/ManoelMorais/Pro-financeiro",
   },
@@ -21,7 +21,7 @@ const project = [
     name: "Clock",
     description:
       "using js to practice dates, linguages using HTML, CSS and JavaScitp",
-    image: "/src/assets/imges/relogio.png",
+    image: "images/relogio.png",
     link: "https://manoelmorais.github.io/Pro-Relogio/",
     git: "https://github.com/ManoelMorais/Pro-Relogio",
   },

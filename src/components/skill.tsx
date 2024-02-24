@@ -3,76 +3,76 @@ import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 const skills = [
   {
     id: 0,
-    image: "/src/assets/images/git.png",
+    image: "images/git.png",
   },
   {
     id: 1,
-    image: "/src/assets/images/html_icon.png",
+    image: "images/html_icon.png",
   },
   {
     id: 2,
-    image: "/src/assets/images/css-icon.png",
+    image: "images/css-icon.png",
   },
   {
     id: 3,
-    image: "/src/assets/images/javascript_icon.png",
+    image: "images/javascript_icon.png",
   },
   {
     id: 4,
-    image: "/src/assets/images/typescriptl_icon.png",
+    image: "images/typescriptl_icon.png",
   },
   {
     id: 5,
-    image: "/src/assets/images/reactjs_icon.png",
+    image: "images/reactjs_icon.png",
   },
   {
     id: 6,
-    image: "/src/assets/images/tailwind_icon.png",
+    image: "images/tailwind_icon.png",
   },
   {
     id: 18,
-    image: "/src/assets/images/angular.png",
+    image: "images/angular.png",
   },
   {
     id: 7,
-    image: "/src/assets/images/sql_icon.png",
+    image: "images/sql_icon.png",
   },
   {
     id: 9,
-    image: "/src/assets/images/node_icon.png",
+    image: "images/node_icon.png",
   },
   {
     id: 11,
-    image: "/src/assets/images/docker.png",
+    image: "images/docker.png",
   },
 ];
 const studying = [
   {
     id: 8,
-    image: "/src/assets/images/nextjs_icon.png",
+    image: "images/nextjs_icon.png",
   },
   {
     id: 10,
-    image: "/src/assets/images/java_icon.png",
+    image: "images/java_icon.png",
   },
   {
     id: 11,
-    image: "/src/assets/images/android.png",
+    image: "images/android.png",
   },
   {
     id: 10,
-    image: "/src/assets/images/ubuntu.png",
+    image: "images/ubuntu.png",
   },
   {
     id: 19,
-    image: "/src/assets/images/spring-boot.png",
+    image: "images/spring-boot.png",
   }
 ];
 
 const learnNot = [
   {
     id: 17,
-    image: "/src/assets/images/python_icon.png",
+    image: "images/python_icon.png",
   },
 ];
 
