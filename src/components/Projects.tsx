@@ -3,7 +3,7 @@ const project = [
     id: 1,
     name: "Game",
     description:
-      "made in pure js to learn, linguages using HTML, CSS and JavaScitp",
+      "made in pure js to learn, linguages using HTML, CSS and JavaScipt",
     image: "images/ping_pong.png",
     link: "https://manoelmorais.github.io/Ping-Pong/",
     git: "https://github.com/ManoelMorais/Ping-Pong",
@@ -20,7 +20,7 @@ const project = [
     id: 3,
     name: "Clock",
     description:
-      "using js to practice dates, linguages using HTML, CSS and JavaScitp",
+      "using js to practice dates, linguages using HTML, CSS and JavaScipt",
     image: "images/relogio.png",
     link: "https://manoelmorais.github.io/Pro-Relogio/",
     git: "https://github.com/ManoelMorais/Pro-Relogio",
