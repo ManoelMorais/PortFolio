@@ -1,43 +1,60 @@
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
-import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className="py-10 md:px-10 px-4 bg-principal text-extras">
-      <div className="flex flex-col md:flex-row md:items-center justify-between">
-        <div className="flex flex-col md:flex-row md:items-center flex-wrap scroll-smooth">
+    <footer className="bg-principal border-t border-white/5 py-10">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+
+        {/* Nome */}
+        <div>
+          <p className="font-display text-extras font-bold text-lg">
+            MM<span className="text-secundaria">.</span>
+          </p>
+          <p className="text-muted text-xs mt-1">
+            Manoel Almeida de Morais · Aracaju/SE
+          </p>
+        </div>
+
+        {/* Links */}
+        <div className="flex items-center gap-5">
+          <a
+            href="https://www.linkedin.com/in/manoel-almeida-a90054267/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-extras/30 hover:text-secundaria transition-colors duration-300"
+          >
+            <FaLinkedin size={18} />
+          </a>
+          <a
+            href="https://github.com/ManoelMorais"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-extras/30 hover:text-secundaria transition-colors duration-300"
+          >
+            <FaGithub size={18} />
+          </a>
+          <a
+            href="https://www.instagram.com/_manoel_almeida/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-extras/30 hover:text-secundaria transition-colors duration-300"
+          >
+            <FaInstagram size={18} />
+          </a>
           <a
             href="https://blog-mu-one.vercel.app/"
-            className="block  hover:text-yello-text py-2 px-4"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-extras/30 hover:text-secundaria text-xs font-mono transition-colors duration-300 ml-2"
           >
-            Blog
+            Blog →
           </a>
         </div>
-        <div>
-          <h1 className="px-4">Manoel Almeida de Morais</h1>
-          <h3 className="px-4">Aracaju/SE +79🌎</h3>
-          <div className="flex items-center  gap-4 m-4">
-            <a
-              href="https://www.linkedin.com/in/manoel-almeida-a90054267/"
-              target="_blank"
-            >
-              <FaLinkedin className="cursor-pointer hover:-translate-y-3 transition-all duration-300 text-xl hover:text-primary" />
-            </a>
-            <a href="https://github.com/ManoelMorais" target="_blank">
-              <AiFillGithub className="cursor-pointer hover:-translate-y-3 transition-all duration-300 text-xl hover:text-primary" />
-            </a>
-            <a
-              href="https://www.instagram.com/_manoel_almeida/"
-              target="_blank"
-            >
-              <FaInstagram className="cursor-pointer hover:-translate-y-3 transition-all duration-300 text-xl hover:text-primary" />
-            </a>
-          </div>
-        </div>
+
+        <p className="text-muted text-xs">
+          Built with React · {new Date().getFullYear()}
+        </p>
       </div>
-      <div className="border-t-4 m-3">
-        <p>Made with 💖</p>
-      </div>
-    </div>
+    </footer>
   );
 }

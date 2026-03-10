@@ -1,109 +1,149 @@
+import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 export default function Contact() {
   return (
-    <div className="bg-terciario">
-      <div className="text-center py-20">
-        <div>
-          <h2 className="text-4xl text-headingcolor">Contact me</h2>
+    <section id="contact" className="bg-cardlight py-32">
+      <div className="max-w-6xl mx-auto px-6">
+
+        {/* Label */}
+        <div className="flex items-center gap-3 mb-12">
+          <span className="gold-line" />
+          <span className="font-mono text-xs text-secundaria tracking-widest uppercase">
+            Contact
+          </span>
         </div>
-        <div className="md:w-2/3 mx-auto p-10">
-          <form
-            action="https://formsubmit.co/999142818m@gmail.com"
-            method="post"
-            name="form"
-          >
-            <div className="flex flex-col sm:flex-row gap-8 items-center mb-8 justify-center">
-              <div className="sm:w-1/2 w-full">
-                <label
-                  htmlFor="name"
-                  className="text-base text-headingcolor w-full"
+
+        <div className="grid md:grid-cols-2 gap-16 items-start">
+
+          {/* Lado esquerdo */}
+          <div>
+            <h2 className="font-display text-4xl md:text-5xl text-extras font-bold leading-tight mb-6">
+              Let's work
+              <br />
+              <span className="text-secundaria">together.</span>
+            </h2>
+            <p className="text-extras/60 text-lg leading-relaxed mb-10">
+              I'm available for freelance projects — Power Platform automation,
+              Java backend APIs, or full-stack systems. If you have a problem
+              that needs a real solution, let's talk.
+            </p>
+
+            {/* Links de contato */}
+            <div className="space-y-4">
+              {[
+                {
+                  icon: <MdEmail size={20} />,
+                  label: "manoelalmorais@gmail.com",
+                  href: "mailto:manoelalmorais@gmail.com",
+                },
+                {
+                  icon: <FaWhatsapp size={18} />,
+                  label: "+55 79 99914-2918",
+                  href: "https://wa.me/5579999142918",
+                },
+                {
+                  icon: <FaLinkedin size={18} />,
+                  label: "linkedin.com/in/manoel-almeida",
+                  href: "https://www.linkedin.com/in/manoel-almeida-a90054267/",
+                },
+                {
+                  icon: <FaGithub size={18} />,
+                  label: "github.com/ManoelMorais",
+                  href: "https://github.com/ManoelMorais",
+                },
+              ].map(({ icon, label, href }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 text-extras/50 hover:text-secundaria transition-colors duration-300 group"
                 >
+                  <span className="w-10 h-10 rounded-lg bg-principal/60 border border-white/5 flex items-center justify-center group-hover:border-secundaria/30 transition-colors duration-300">
+                    {icon}
+                  </span>
+                  <span className="text-sm">{label}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+
+          {/* Formulário */}
+          <div className="bg-principal/60 border border-white/5 rounded-2xl p-8">
+            <form
+              action="https://formsubmit.co/manoelalmorais@gmail.com"
+              method="POST"
+              className="space-y-5"
+            >
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_subject" value="Portfolio contact" />
+
+              <div>
+                <label className="block text-xs font-mono text-muted tracking-widest uppercase mb-2">
                   Your name
                 </label>
                 <input
                   type="text"
-                  id="name"
                   name="name"
-                  className="block border border-primary rounded-lg py-2 mt-2 w-full"
                   required
+                  className="w-full bg-cardlight border border-white/10 rounded-lg px-4 py-3 text-extras text-sm focus:outline-none focus:border-secundaria/50 transition-colors placeholder-extras/20"
+                  placeholder="John Doe"
                 />
               </div>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-8 items-center mb-8">
-              <div className="sm:w-1/2 w-full">
-                <label
-                  htmlFor="email"
-                  className="text-base text-headingcolor w-full"
-                >
+
+              <div>
+                <label className="block text-xs font-mono text-muted tracking-widest uppercase mb-2">
                   Email
                 </label>
                 <input
                   type="email"
-                  id="email"
                   name="email"
-                  className="block border border-primary rounded-lg py-2 mt-2 w-full"
                   required
+                  className="w-full bg-cardlight border border-white/10 rounded-lg px-4 py-3 text-extras text-sm focus:outline-none focus:border-secundaria/50 transition-colors placeholder-extras/20"
+                  placeholder="john@company.com"
                 />
               </div>
-              <div className="sm:w-1/2 w-full">
-                <label
-                  htmlFor="phone"
-                  className="text-base text-headingcolor w-full"
-                >
-                  Phone number
+
+              <div>
+                <label className="block text-xs font-mono text-muted tracking-widest uppercase mb-2">
+                  What do you need?
                 </label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  className="block border border-primary rounded-lg py-2 mt-2 w-full"
+                <select
+                  name="topic"
                   required
+                  className="w-full bg-cardlight border border-white/10 rounded-lg px-4 py-3 text-extras text-sm focus:outline-none focus:border-secundaria/50 transition-colors"
+                >
+                  <option value="">Select one...</option>
+                  <option value="Power Platform automation">Power Platform automation</option>
+                  <option value="Backend Java API">Backend Java API</option>
+                  <option value="Full stack system">Full stack system</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div>
+                <label className="block text-xs font-mono text-muted tracking-widest uppercase mb-2">
+                  Message
+                </label>
+                <textarea
+                  name="message"
+                  rows={4}
+                  className="w-full bg-cardlight border border-white/10 rounded-lg px-4 py-3 text-extras text-sm focus:outline-none focus:border-secundaria/50 transition-colors resize-none placeholder-extras/20"
+                  placeholder="Tell me about your project..."
                 />
               </div>
-            </div>
-            <div className="w-full mb-8">
-              <label
-                htmlFor="topic"
-                className="text-base text-headingcolor w-full"
-              >
-                Choose a topic
-              </label>
-              <select
-                name="topic"
-                id="topic"
-                className="block border border-primary rounded-lg py-2 px-2 mt-2 w-full"
-                required
-              >
-                <option value="">Select one...</option>
-                <option value="front end">Front end</option>
-                <option value="back end">Back end</option>
-                <option value="full stack">Full stack</option>
-              </select>
-            </div>
-            <div className="w-full mb-8">
-              <label
-                htmlFor="message"
-                className="text-base text-headingcolor w-full"
-              >
-                Message
-              </label>
-              <textarea
-                name="message"
-                id="message"
-                className="block border border-primary rounded-lg py-2 px-2 mt-2 w-full"
-              ></textarea>
-            </div>
-            <div className="w-36 mx-auto border rounded-lg bg-principal  hover:bg-sky-400">
-              <a href="mailto"></a>
-              <input
+
+              <button
                 type="submit"
-                value="Submit"
-                className="btn-primary py-3 bg-primary px-8 text-extras rounded-b-md cursor-pointer inline-block w-full "
-                required
-              />
-            </div>
-          </form>
+                className="w-full bg-secundaria text-principal font-semibold py-3 rounded-lg hover:bg-secundaria/90 transition-all duration-300 hover:shadow-lg hover:shadow-secundaria/20 hover:-translate-y-0.5"
+              >
+                Send message
+              </button>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

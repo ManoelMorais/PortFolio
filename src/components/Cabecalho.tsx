@@ -1,47 +1,105 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
-import logo from "../assets/fav/abertura.webp"
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Cabecalho() {
-  const Links = [
-    { name: "Home", link: "#home" },
-    { name: "Profile", link: "#perfil" },
-    { name: "Skill", link: "#estudos" },
-    { name: "Projects", link: "#projetos" },
-  ];
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 40);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const links = [
+    { name: "Home",     href: "#home" },
+    { name: "About",    href: "#about" },
+    { name: "Skills",   href: "#skills" },
+    { name: "Projects", href: "#projects" },
+    { name: "Contact",  href: "#contact" },
+  ];
 
   return (
-    <div className="shadow-md w-full fixed top-0 left-0 scroll-smooth hover:scroll-auto">
-      <div className="md:flex items-center justify-between bg-principal text-extras py-4 md:px-10 px-7 scroll-smooth hover:scroll-auto">
-        {/* logo section */}
-        <div className="text-3xl flex items-center gap-1">
-          <img className="w-14" src={logo} alt="" />
-          <span>Welcome ✨</span>
-        </div>
-        <div
-          onClick={() => setOpen(!open)}
-          className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7"
-        >
-          {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
-        </div>
-        <ul
-          className={`bg-principal md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
-            open ? "top-15" : "top-[-490px] "
-          }`}
-        >
-          {Links.map((link) => (
-            <li className="md:ml-8 md:my-0 my-7 text-lg scroll-smooth">
-              <a
-                href={link.link}
-                className="text-extras hover:text-hove duration-500"
-              >
-                {link.name}
-              </a>
-            </li>
+    <header
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+        scrolled
+          ? "bg-principal/95 backdrop-blur-md shadow-lg shadow-black/30"
+          : "bg-transparent"
+      }`}
+    >
+      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+
+        {/* Logo */}
+        <a href="#home" className="font-display text-xl font-bold text-extras tracking-tight">
+          MM<span className="text-secundaria">.</span>
+        </a>
+
+        {/* Nav desktop */}
+        <nav className="hidden md:flex items-center gap-8">
+          {links.map((link) => (
+            <a
+              key={link.name}
+              href={link.href}
+              className="text-sm font-body text-extras/70 hover:text-secundaria transition-colors duration-300"
+            >
+              {link.name}
+            </a>
           ))}
-        </ul>
+        </nav>
+
+        {/* Ícones sociais desktop */}
+        <div className="hidden md:flex items-center gap-4">
+          <a
+            href="https://www.linkedin.com/in/manoel-almeida-a90054267/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-extras/60 hover:text-secundaria transition-colors duration-300"
+          >
+            <FaLinkedin size={18} />
+          </a>
+          <a
+            href="https://github.com/ManoelMorais"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-extras/60 hover:text-secundaria transition-colors duration-300"
+          >
+            <FaGithub size={18} />
+          </a>
+        </div>
+
+        {/* Hamburguer mobile */}
+        <button
+          className="md:hidden text-extras"
+          onClick={() => setOpen(!open)}
+        >
+          {open ? <XMarkIcon className="w-6 h-6" /> : <Bars3BottomRightIcon className="w-6 h-6" />}
+        </button>
       </div>
-    </div>
+
+      {/* Menu mobile */}
+      {open && (
+        <div className="md:hidden bg-principal/98 backdrop-blur-md border-t border-white/10 px-6 py-6 flex flex-col gap-5">
+          {links.map((link) => (
+            <a
+              key={link.name}
+              href={link.href}
+              onClick={() => setOpen(false)}
+              className="text-extras/80 hover:text-secundaria text-lg font-body transition-colors"
+            >
+              {link.name}
+            </a>
+          ))}
+          <div className="flex gap-4 mt-2">
+            <a href="https://www.linkedin.com/in/manoel-almeida-a90054267/" target="_blank" rel="noopener noreferrer" className="text-extras/60 hover:text-secundaria transition-colors">
+              <FaLinkedin size={20} />
+            </a>
+            <a href="https://github.com/ManoelMorais" target="_blank" rel="noopener noreferrer" className="text-extras/60 hover:text-secundaria transition-colors">
+              <FaGithub size={20} />
+            </a>
+          </div>
+        </div>
+      )}
+    </header>
   );
 }
