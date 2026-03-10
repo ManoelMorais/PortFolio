@@ -7,15 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        'principal': '#F8F7F4',
+        'principal': '#0B1221',
         'secundaria': '#C9993A',
         'terciario': '#F8F7F4',
-        'card': '#F8F7F4',
-        'cardlight': '#F8F7F4',
+        'card': '#111D2E',
+        'cardlight': '#162238',
       },
       textColor: {
         'extras': '#F5EDD8',
-        'headingcolor': '#F5EDD8',
+        'headingcolor': '#0B1221',
         'hove': '#C9993A',
         'muted': '#8899AA',
       },
@@ -36,32 +36,16 @@ export default {
       },
       keyframes: {
         fadeUp: {
-          '0%': {
-            opacity: '0',
-            transform: 'translateY(24px)'
-          },
-          '100%': {
-            opacity: '1',
-            transform: 'translateY(0)'
-          },
+          '0%': { opacity: '0', transform: 'translateY(24px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
         },
         fadeIn: {
-          '0%': {
-            opacity: '0'
-          },
-          '100%': {
-            opacity: '1'
-          },
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
         },
         slideRight: {
-          '0%': {
-            opacity: '0',
-            transform: 'translateX(-20px)'
-          },
-          '100%': {
-            opacity: '1',
-            transform: 'translateX(0)'
-          },
+          '0%': { opacity: '0', transform: 'translateX(-20px)' },
+          '100%': { opacity: '1', transform: 'translateX(0)' },
         },
       },
     },

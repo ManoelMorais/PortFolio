@@ -11,7 +11,7 @@
 
 body {
   font-family: 'DM Sans', sans-serif;
-  background-color: #F5EDD8;
+  background-color: #0B1221;
 }
 
 h1, h2, h3 {
@@ -25,7 +25,7 @@ code, .mono {
 /* Scrollbar */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-thumb { background-color: #C9993A; border-radius: 8px; }
-::-webkit-scrollbar-track { background-color: #F5EDD8; }
+::-webkit-scrollbar-track { background-color: #0B1221; }
 ::-webkit-scrollbar-thumb:hover { background-color: #E6B84A; }
 
 /* Linha decorativa dourada */
